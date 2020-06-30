@@ -9,7 +9,54 @@
   <meta name="author" content="Author of webpage">
 
   <style>
-  /* CSS goes between the style tags. */
+  p {
+      color: midnightblue;
+      background-color: azure;  
+      font-family: "Arial";
+      font-size: 18px;
+      text-align: justify;
+      width: 600px;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  body{
+      background-color: black;
+  }
+
+  h1 {
+      color: cyan;
+      text-align: justify;
+      font-size: 48px;
+      width: 610px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 10px;
+      padding-bottom:10px;
+      font-family: "Arial";
+     
+  }
+
+  /* Bonus: Find out how to justify a single line of text. */
+
+  h2 {
+      color: white;
+      text-align: center;
+      border-width: 5px; 
+      border-style: solid;
+      border-color: white;
+      width: 600px;
+      background-color: gray;
+      border-radius: 2px;
+      margin-left: auto;
+      margin-right: auto;
+     
+  }
+  hr {
+      width: 600px;
+  }
   </style>
 
 </head>
@@ -30,12 +77,15 @@
         positioning, instead HTML is only used to describe what is displayed on the web page.</p>
 
     <h2>HTML SYNTAX</h2>
+
     <p>Just like we put together letters into groups to create words, HTML is grouped up into
         “tags”, a tag has a keyword that is surrounded by angle brackets ( &lt; and &gt; ). There
         are certain keywords that make up the language of HTML.</p>
     
     <!-- Some Common Characters codes, see website for actual symbols-->
     <p>&#98 &copy; &reg; &para; &deg;</p>
+
+    <hr></hr>
 
     <p>Correctly written HTML tags:</p>
 
@@ -63,11 +113,24 @@
     <p>Correctly written HTML elements:</p>
 
     <ul>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>&lt;blockquote&gt;This is the most important quote ever!&lt;/blockquote&&gt;</li>
+        <li>&lt;p&gt;This is a paragraph.&lt;/p&gt;</li>
+        <li>&lt;h1&gt;This is the title of the section&lt;/h1&gt;</li>
     </ul>
 
+    <p>Incorrectly written HTML elements:</p>
+
+    <ul></ul>
+        <li>&lt;blockquote&gt;This is the most important quote ever!&lt;/block&gt;</li>
+            <p>notice the mismatching tags! Also “block” is not a valid HTML element</p>
+        <li>&lt;p&gt;This is a paragraph.&lt;p&gt;</li>
+            <p>notice the closing tag is missing the forward slash, the computer will think you started ANOTHER p tag!</p>
+        <li>&lt;h1&gt;This is the title of the section&lt;/H1&gt;</li>
+            <p>while it seems both tags match, the closing tag is not the same as the opening tag! Guess why!</p>
+
+    <h2>COMMON HTML ELEMENTS</h2>
+
+    <p>The following is a list of common HTML elements that you will use often. Note that this list does not cover all HTML elements that exist!</p>
 	
   <script>
   /* JavaScript goes in between the script tags. */
