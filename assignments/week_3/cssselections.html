@@ -1,0 +1,71 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>CSS Selections</title>
+  <meta name="description" content="Description of your webpage.">
+  <meta name="author" content="Author of webpage">
+
+  <style>
+     
+     div #note {
+      color: grey;
+    }
+  
+    div p {
+      color: black;
+    }
+
+    
+    /* GLOBAL STYLES */
+
+    p {
+      color:olivedrab;
+    }
+
+    #note {
+      color:orange !important;
+    }
+
+    .odd{
+        background-color: lightgrey;
+    }
+
+    .pink {
+        background-color: pink;
+    }
+
+
+    p {
+      color:red;
+      font-size: 40px;
+    }
+  
+  </style>
+  
+  <link rel="stylesheet" href="styles.css" />
+
+</head>
+
+<body>
+
+    <p style=" color: brown; font-size: 60px; text-decoration: underline;">Hello there!</p>
+
+    <div>
+        <p>Good bye</p>
+        <p id="note">P.S. Don't forget!</p>
+    </div>
+
+    <ul>
+        <li class="pink">Some item</li>
+        <li>Some item</li>
+        <li class="odd">Some item</li>
+        <li class="odd">Some item</li>
+        <li class="odd">Some item</li>
+    </ul>
+
+
+</body>
+</html>
