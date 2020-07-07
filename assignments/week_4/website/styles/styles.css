@@ -13,7 +13,7 @@ h2 {
 }
 
 #header {
-    background-color: MidnightBlue;
+    background-color: lightslategray;
 }
 
 #header h1 {
@@ -24,8 +24,50 @@ h2 {
     color: snow;
 }
 
+#header ul {
+    color: white;
+    text-align: center;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+}
+
+#header ul li {
+    background-color: darkgrey;
+    display: inline-block;
+    margin-left: 25px;
+    padding-right: 25px;
+    padding-left: 0px;
+    padding-right: 10px;
+    line-height: 50px;
+    text-align: center;
+    height: 50px;
+    width: 100px;
+    border-radius: 15px;
+}
+
+#header ul li a {
+    color: blue;
+}
+
+#header ul li a {
+    color: white;
+}
+
+#header ul li a:visited {
+    color: darkblue;
+}
+
+#header ul li a:hover {
+    color: greenyellow;
+}
+
+#header ul li a:active {
+    color: green;
+}
+
 #main {
-    background-color: LightCyan;
+    background-color: lightgray;
     
 }
 
@@ -49,6 +91,37 @@ h2 {
     border-radius: 85px;
 }
 
+#main img:hover {
+    border-color: red;
+}
+
 #footer {
-   
+}
+
+body#contact-page form#contact-form {
+    text-align: left;
+    margin-left: 100px;
+}
+
+body#contact-page form#contact-form input {
+    margin-bottom: 20px;
+    height: 50px;
+    width: 400px;
+    font-size: 16px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkgray;
+    padding-left: 10px
+}
+
+body#contact-page form#contact-form label {
+    font-size: 16px;
+    color: rgb(3, 43, 117);
+}
+
+body#contact-page form#contact-form #submit {
+    font-size: 20px;
+    font-weight: 600;
+    width: 100px;
 }
