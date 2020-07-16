@@ -1,0 +1,96 @@
+
+1. CONTENT 
+
+HOME
+
+I'M A 
+{designer} & <coder>
+
+[ Pronounces name rai • s-IHm-p-suhn ]
+
+Hello, I'm a freelance coder and designer based in the San Francisco Bay Area. I'm a Creative turned Programmer. My versatile background includes graphic design, animation, and coding languages like HTML, CSS, and Javascript. Frontend design with the power of coding tools is my specialty. I value smart design and digital analytics, and above all else, transparency. Do you want actionable advice on digital strategy and design? 
+
+
+You've come to the right place. This is the place for next-level branding and innovation.
+Join My Newsletter
+
+Services
+[ Personal & Corporate Branding | UI & Web Design | SEO ]
+
+If you're like most business owners, you're looking to navigate the Digital World in order to find potential customers. Although Social Media is important, your website is your No. 1 resource. I learned the hard way that there's more to just having great content. You need to get higher rankings and actionable advice that works. With a keen eye to detail, we'll go over sitemaps and wireframes for your website. We'll also discuss your personal and business goals.
+________________________
+
+WORK (PORTFOLIO)
+
+QUIET RESOLVE. IMPACTFUL ART. 
+
+________________________
+
+INQUIRY (CONTACT)
+
+Get a free quote
+
+Name
+Email
+Phone
+Message
+
+Message Us
+
+
+________________________
+
+
+
+
+2. COLOR CHOICES
+
+BACKGROUND COLOR
+Light Gray | #ebecf4
+This shade of gray draws the eye to the right place, the images and text
+
+HEADER
+Light Gray | #dcfaed
+This simple shade of gray helps to bring attention to the logo & navigation menu
+________________________
+
+COVER BODY
+Light Gray | #ebecf4
+Similar to the background the body color serves as a container to draw the readers attention to the text and images.
+________________________
+
+FOOTER
+White | #f7f7f7
+The intention of this off-with color is to make the footer easy to read
+________________________
+
+TEXT
+Dark Gray | #626262
+Eye-popping dark gray text is used in order to keep the reader reading, It reminds me of black text but a little more calmer.
+________________________
+
+LINK
+Main | Light Green | #97dec8
+The metaphor for this light green is a green light on stop sign. It says, "GO" or click this link to the next page
+________________________
+
+Hover | Dark Purple | #5c5fc8
+The vibrancy of this purple is creative and unusual, it sparks curiosity for the user to keep surfing through other parts of the site.
+
+
+
+
+3. PORTFOLIO RESEARCH
+
+☆ FLOAT LEFT http://floatleft.com/portfolio
+LIKE: The "Services" listed are provided
+DISLIKE: Wordy Descriptions that overflow into the formatting
+
+☆ IDEAHUT http://idealhut.com/portfolio 
+LIKE: Favorite - has services listed in the image/cleanest design
+DISLIKE: No Back navigation to the portfolio
+
+☆ http://www.adhamdannaway.com/portfolio
+LIKE: Has a good sense of line & architecture
+DISLIKE: Not too many dislikes. Maybe the sitemaps can be smaller than the real examples
+
