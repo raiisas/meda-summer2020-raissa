@@ -3,10 +3,11 @@
 
 HOME
 
+RAI SIMPSON
+[ Pronounces name rai • s-IHm-p-suhn ]
+
 I'M A 
 {designer} & <coder>
-
-[ Pronounces name rai • s-IHm-p-suhn ]
 
 Hello, I'm a freelance coder and designer based in the San Francisco Bay Area. I'm a Creative turned Programmer. My versatile background includes graphic design, animation, and coding languages like HTML, CSS, and Javascript. Frontend design with the power of coding tools is my specialty. I value smart design and digital analytics, and above all else, transparency. Do you want actionable advice on digital strategy and design? 
 
@@ -22,7 +23,7 @@ ________________________
 
 WORK (PORTFOLIO)
 
-QUIET RESOLVE. IMPACTFUL ART. 
+QUIET RESOLVE. IMPACTFUL WORK. 
 
 ________________________
 
@@ -32,10 +33,10 @@ Get a free quote
 
 Name
 Email
-Phone
+Subject Line
 Message
 
-Message Us
+Submit
 
 
 ________________________
@@ -70,11 +71,11 @@ Eye-popping dark gray text is used in order to keep the reader reading, It remin
 ________________________
 
 LINK
-Main | Light Green | #97dec8
+Main |  Dark Purple | #5c5fc8
 The metaphor for this light green is a green light on stop sign. It says, "GO" or click this link to the next page
 ________________________
 
-Hover | Dark Purple | #5c5fc8
+Hover | Light Green | #97dec8
 The vibrancy of this purple is creative and unusual, it sparks curiosity for the user to keep surfing through other parts of the site.
 
 

@@ -1,20 +1,17 @@
-var hello = "hello there!";
+// The If Statement - Use it to ask questions
 
-console.log("hello");
+var number1 = 10;
+var number2 = 15;
 
-var myVariable = 100;
+// Syntax
+// if (conditional) { group of code to run if conditional is true}
+// No ; if (number1 == number2) because the () is ending the statement for this section... Same for {}
 
-// Cannot multiply Strings
 
-var mySentence = "hundred";
+// Conditional Operators
+// == Compares two values, becomes the boolean true if it is the same, and false if they are not the same.
+if (number1 == number2) {
+    console.log("This if statement was true so I am this code!");
+}
 
-var total = 10 * mySentence;
-// total will hold a NaN value (which stands for Not a Number)
-
-var numberTotal = 10 * 100;
-
-console.log(numberTotal);
-
-// true and false
-
-var isRaining = true;
+console.log ("Program Finished!");

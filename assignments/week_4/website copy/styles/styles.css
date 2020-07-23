@@ -1,67 +1,57 @@
-/* To change the background of the entire website, select body and use property background-color. */
-body {
-    background-color: #fcf6eb; /* light brown */
-    color: #403630;
-}
-
-a {
-    color: #8D8079;
-    text-decoration: none;
-}
-
 h2 {
-    color: #2A403F;
+    color: MediumVioletRed;
 }
 
-/* Made the container 100% */
 #container {
-    width: 100%;
+    width: 700px;
+    border-style: solid;
+    border-width: 5px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     font-family: "Arial";
 }
 
-#header {}
+#header {
+    background-color: lightslategray;
+}
 
 #header h1 {
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 40px;
     padding-bottom: 40px;
-    color: #2A403F;
+    color: snow;
 }
 
 #header ul {
     color: white;
     text-align: center;
-    padding-left: 0;
-    margin-bottom: 0;
+    padding-left: 0px;
+    margin-bottom: 0px;
     padding-bottom: 20px;
-    
 }
 
-/* Container for the links */
 #header ul li {
-    background-color: #c4b8a0;
+    background-color: darkgrey;
     display: inline-block;
     margin-left: 25px;
-    margin-right: 25px;
+    padding-right: 25px;
+    padding-left: 0px;
+    padding-right: 10px;
+    line-height: 50px;
+    text-align: center;
     height: 50px;
     width: 100px;
-    text-align: center;
-    line-height: 50px;
-    padding-right: 5px;
-    padding-left: 5px;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 #header ul li a {
+    color: blue;
 }
 
-#header ul li a:link {
+#header ul li a {
     color: white;
-    text-decoration: none;
 }
 
 #header ul li a:visited {
@@ -69,18 +59,16 @@ h2 {
 }
 
 #header ul li a:hover {
-    color: red;
+    color: greenyellow;
 }
 
 #header ul li a:active {
-     color: pink;
-     margin-left: 5px;
-     margin-top: 5px;
+    color: green;
 }
 
-
-
-#main {    
+#main {
+    background-color: lightgray;
+    
 }
 
 #first-section-title {
@@ -93,23 +81,21 @@ h2 {
     margin-right: 30px;
     margin-left: 30px;
     line-height: 22px;
-    color: #403630;
-}
-
-#main ul li {
-    display: inline-block;
+    color: DarkSlateGray;
 }
 
 #main img {
     border-style: solid;
     border-width: 2px;
-    border-color: #798C8C;
-    border-radius: 5px;
+    border-color: grey;
+    border-radius: 85px;
 }
 
+#main img:hover {
+    border-color: red;
+}
 
 #footer {
-
 }
 
 body#contact-page form#contact-form {
@@ -120,17 +106,22 @@ body#contact-page form#contact-form {
 body#contact-page form#contact-form input {
     margin-bottom: 20px;
     height: 50px;
-    width: 75%;
-    font-size: 30px;
-    border-radius: 10px;
+    width: 400px;
+    font-size: 16px;
+    border-radius: 5px;
     border-style: solid;
     border-width: 1px;
-    border-color: darkblue;
-    padding-left: 10px;
+    border-color: darkgray;
+    padding-left: 10px
+}
+
+body#contact-page form#contact-form label {
+    font-size: 16px;
+    color: rgb(3, 43, 117);
 }
 
 body#contact-page form#contact-form #submit {
     font-size: 20px;
+    font-weight: 600;
     width: 100px;
-    
 }
