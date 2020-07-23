@@ -1,20 +1,57 @@
-// FUNCTIONS
+var oneValue = 800;
 
-function myFunction() {
-    var response = prompt("How are you doing?");
+oneValue = 500;
 
-    if(response === "") {
-        alert("You didn't type anything in!");
-    } else {
-        console.log(response);
-    }
-    return true;
+// An JavaScript Array is described using the square brackets symbols, and each value within should be split by a comma except for the last value.
+
+var days = [
+    "monday",
+    "tueday", 
+    "wednesday", 
+    "thursday", 
+    "friday", 
+    "saturaday", 
+    "sunday"
+];
+
+var randomArray = [100, "hello", true];
+
+var multiDimensionalArray = [
+    [10, 20],
+    [100, 200]
+];
+
+console.log(days[3]);
+console.log(days[5]);
+
+days[2] = "Whensday";
+
+days[3] = "Thurs";
+
+console.log(days);
+console.log(multiDimensionalArray);
+
+//Array Arithmetic or cancat
+//var newArray = randomArray + days;
+var newArray2 = randomArray.concat(days);
+
+function addArrays(array1, array2) {
+
+    var newArray = [
+         array1[0] + array2[0],
+         array1[1] + array2[1]
+    ]
+
+    return newArray;
+
 }
 
+var firstArray = [1, 10];
+var SecondArray = [9, 10];
+var SumArray = addArrays(firstArray, SecondArray);
 
-var didTheyRead = myFunction();
+console.log(SumArray);
 
-var counter = 0;
-while (didTheyRead === false) {
-    didTheyRead = myFunction();
-}
+days[7] = "superday";
+
+console.log(days);
