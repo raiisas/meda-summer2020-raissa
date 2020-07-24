@@ -55,3 +55,27 @@ console.log(SumArray);
 days[7] = "superday";
 
 console.log(days);
+
+// Array Functions
+// .push() puts a new piece of data at the end of the array. → myArray.push("last item"); → this a modification
+// .ppp() removes a piece of data in the array (and returns it to wherever you called .pp()) → .pp() myArray.pop();
+
+// .shift()  puts a new piece of data at the beginning of the array → myArray.unshift("cutting the line!");
+// .unshift() removes the first piece of data in the array (and returns it whereever you called .shift) → myArray.shift();
+
+// PUSH EXAMPLE
+
+var multiple = [];
+var multiplier = 12;
+
+for (var i = 0; i <= 12; i = i + 1) {
+
+    var product = i * multiplier;
+
+    multiples.push(product);
+
+}
+
+// multiples.shift(); will get rid of the starting 0;
+
+console.log(multiples);
