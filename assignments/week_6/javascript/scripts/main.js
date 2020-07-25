@@ -79,3 +79,31 @@ for (var i = 0; i <= 12; i = i + 1) {
 // multiples.shift(); will get rid of the starting 0;
 
 console.log(multiples);
+
+function multipleTables(multiplier, max = 12) {
+
+    var multiples = [];
+
+    for (var i = 0; i <= max; i = i + 1){
+    var product = i * multiplier;
+    multiples.push(product);
+    }
+
+    return multiples;
+
+}
+
+console.log(multipleTables(7, 20));
+
+console.log(multipleTables(18, 20));
+
+days.pop();
+console.log(days);
+
+/* Difference between Null and Undefined. 
+Null  → intentionally emptying a variable
+Undefined  → was never assigned a value
+*/
+
+days[4] = null
+console.log(days);

@@ -5,34 +5,20 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-work#a {
-    color: #403630;
-    text-decoration: none;
-    font-size: 15;
-    font-weight: 600;
-}
-
-h2 {
-    color: #2A403F;
-}
-/* Holds overall layout and dimensions of the header*/
+/* Holds overall layout and dimensions of the header */
 
 #header {
-}
-
-#navigation img {
-    display: inline-block;
-    vertical-align: bottom;
+    height: 60px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 #navigation ul li {
     display: inline-block;
-    vertical-align: text-top;
-    padding-left: 20px;
-    padding-right: 60px;
-    margin-left: 10px;
-    border: 5px;
-    border-color: white;
+    padding-left: 100px;
+    vertical-align: middle;
 }
 
 #header ul li a:link {
@@ -52,16 +38,43 @@ h2 {
      color: red;
 }
 
+#first-section-title {
+    background-color: #97dec8;
+    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    color: #626262;
+}
+
+h2 {
+    color: #2A403F;
+}
+
+#banner img{
+    width: 100%;
+    height: auto;
+}
+
 #newsletter {
     margin-top: 20px;
     margin-bottom: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-right: 10px
+    padding-right: 10px;
     position: relative;
     text-align: center;
     font-size: 15px;
     font-weight: 800;
+}
+
+work #a {
+    color: #403630;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
 }
 
 #skillset {
@@ -102,20 +115,9 @@ form#email-form #submit {
 #main {    
 }
 
-#first-section-title {
-    background-color: #97dec8;
-    margin-bottom: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 500;
-    color: #626262;
-}
-
 #main h2 {
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     font-size: 15px;
     font-weight: 700;
     color: #626262;
@@ -191,7 +193,7 @@ body#contact-page form#contact-form #submit {
     display: inline-block;
     margin-top: 20px;
     margin-bottom: 20px;
-    font-size: 15;
+    font-size: 15px;
     text-align: center;
     padding-left: 200px;
     padding-right: 100px;
