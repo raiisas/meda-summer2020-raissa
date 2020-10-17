@@ -204,3 +204,24 @@ body#contact-page form#contact-form #submit {
     padding-left: 200px;
     padding-right: 100px;
 }
+
+#fill {
+    margin-top: 10px;
+}
+
+#counter {
+    margin-left: 20px;
+    height: 250px;
+    width: 550px;
+    color: darkslategray;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-stretch: 5px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#remainingCharset {
+    padding-left: 400px;
+}

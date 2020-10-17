@@ -1,0 +1,25 @@
+Javascript 30 Notes
+
+➡ Drumkit
+Keycode.info http://keycode.info/
+HTML ATTRIBUTES (i.e. class, src, etc.)
+data key  ➡ attribute
+
+Q: What is KBD?
+A: The HTML Keyboard Input element (<kbd>) represents a span of inline text denoting textual user input from a keyboard, voice input, or any other text entry device
+
+NOTE: Made my own datakey(s) and update HTML
+D 68
+R 82
+E 69
+A 65
+M 77
+B 66
+O 79
+T 84
+S 83
+
+CREDITS:
+Photo by Thibault Trillet from Pexels
+
+

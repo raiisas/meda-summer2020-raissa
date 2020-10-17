@@ -1,0 +1,43 @@
+<!-- Noscript content for added SEO -->
+<noscript><a href="https://www.eventbrite.com/e/pushfest-global-week-2--tickets-118589465283" rel="noopener noreferrer" target="_blank"></noscript>
+<!-- You can customize this button any way you like -->
+<button id="eventbrite-widget-modal-trigger-118589465283" type="button">Buy Tickets</button>
+<noscript></a>Buy Tickets on Eventbrite</noscript>
+
+<style>
+#eventbrite-widget-modal-trigger-118589465283 {
+border: none; 
+background: #e96032;
+color: whitesmoke;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: bolder;
+border-radius: 5px;
+transition: all 300ms linear;
+cursor: pointer;
+padding: 0.5em;
+}
+#eventbrite-widget-modal-trigger-118589465283:hover {
+background: #b3360c; 
+}
+</style>
+
+<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+<script type="text/javascript">
+    var exampleCallback = function() {
+        console.log('Order complete!');
+    };
+
+    window.EBWidgets.createWidget({
+        widgetType: 'checkout',
+        eventId: '118589465283',
+        modal: true,
+        modalTriggerElementId: 'eventbrite-widget-modal-trigger-118589465283',
+        onOrderComplete: exampleCallback
+    });
+</script>
+
+
+<!-- Eventbrite Code -->
